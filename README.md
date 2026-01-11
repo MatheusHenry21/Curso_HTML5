@@ -1,6 +1,6 @@
 # Curso HTML5 – Base para Django
 
-Este repositório contém um projeto desenvolvido durante o curso de **HTML5 do Gustavo Guanabara (Curso em Vídeo)**, com o objetivo de consolidar os fundamentos da linguagem e preparar uma base sólida para o uso de **templates no Django**.
+Este repositório contém um projeto desenvolvido durante o curso de **HTML5 do Gustavo Guanabara (Curso em Vídeo)**, com o objetivo de aprender os fundamentos da linguagem e preparar uma base sólida para o uso de **templates no Django**.
 
 O foco do projeto não é apenas reproduzir o conteúdo do curso, mas compreender a estrutura do HTML5, boas práticas e organização de páginas pensando em aplicações backend com Python.
 
@@ -19,4 +19,5 @@ O foco do projeto não é apenas reproduzir o conteúdo do curso, mas compreende
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
-- CSS3 (quando aplicável)
+- CSS3
+- JavaScript
