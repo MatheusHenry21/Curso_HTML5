@@ -1,9 +1,10 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "fonteLogo";
+    font-family: "FonteLogo";
     src: url(../_fonts/bubblegum-sans-regular.otf);
 }
 body{
+    font-family: Arial, sans-serif;
     background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
 }
@@ -12,6 +13,14 @@ p {
     text-indent: 40px;
 }
 
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 div#interface {
     width: 900px;
@@ -70,7 +79,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 400px;
+    left: 450px;
 }
 
 nav#menu li{
@@ -100,7 +109,7 @@ nav#menu a:hover {
 
 header#cabecalho img#oculos_glass {
     position: absolute;
-    left: 910px;
+    left: 990px;
     top: 50px;
 }
 
@@ -131,12 +140,46 @@ header#cabecalho h2 {
     margin-top: 0px;
 }
 
+/*cabeçalho do artigo*/
+
+header#cabecalho-artigo h1{
+    font-family: "FonteLogo", sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: -10px;
+}
+
+header#cabecalho-artigo h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: white;;
+}
+
+header#cabecalho-artigo h3{
+    font-size: 12pt;
+    color: #888888;
+    margin-bottom: 0px;
+}
+
+.direita {
+    text-align: right;
+}
+
+
 section#corpo {
     display: block;
     width: 555px;
     float: left;
     border-right: 1px solid #606060;
     padding: 15px;
+}
+
+article#noticia-principal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
 }
 
 table#tabelaspec {
@@ -182,6 +225,13 @@ aside#lateral {
     display: block;
     width: 300px;
     float: right;
+}
+
+aside#lateral h1 {
+    font-family: "FonteLogo";
+    font-size: 20pt;
+    color: #606060;
+
 }
 
 footer#rodape {
