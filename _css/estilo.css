@@ -230,6 +230,16 @@ aside#lateral {
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.6);
 }
 
+video#video-aside {
+    display: block;
+    width: 300px;
+}
+
+video#video-principal {
+    display: block;
+    width: 555px;
+}
+
 aside#lateral h1 {
     font-family: "FonteLogo";
     font-size: 20pt;
