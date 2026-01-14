@@ -45,23 +45,23 @@
                 <form>
                     <fieldset id="usuario">
                         <legend>Identificação do Usuário</legend>
-                        <p>Nome: <input type="text" name="tNome" id="cNome" size="50" maxlength="30" placeholder="Nome completo"/></p>
-                        <p>Senha: <input type="password" name="tSenha" id="cSenha" /></p>
-                        <p>E-mail:</p>
+                        <p><label for='cNome'>Nome: </label> <input type="text" name="tNome" id="cNome" size="50" maxlength="30" placeholder="Nome completo"/></p>
+                        <p><label for='cSenha'>Senha: </label> <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+                        <p><label for='cEmail'>E-mail: </label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40"/></p>
                         <fieldset id="sexo">
                             <legend>Sexo</legend>
-                            - Masculino
-                            - Feminino
+                            <input type="radio" name="tSexo" id="cMas"/> <label for="cMas">Masculino</label><br/>
+                            <input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label>
                         </fieldset>
-                        <p>Data de Nascimento:</p>
+                        <p><label for="cNascimento">Data de Nascimento:</label><input type="date" name="tNascimento" id="cNascimento"/></p>
                     </fieldset>
 
                     <fieldset id="endereco">
                         <legend>Endereço do Usuário</legend>
-                        Logradouro:
-                        Número:
-                        Estado:
-                        Cidade:
+                        <p>Logradouro: <input type="text" name="tRua" id="cRua" size="17" maxlength="80" placeholder="Rua, Av, Trav, ..."></p>
+                        <p>Número: <input type="number" name="tNum" id="cNum" min="0" max="99999"/></p>
+                        <p>Estado: </p>
+                        <p>Cidade: </p>
                     </fieldset>
 
                     <fieldset id="mensagem">
